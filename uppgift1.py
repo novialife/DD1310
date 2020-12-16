@@ -1,0 +1,5 @@
+Fuel = input("Ange bränsleförbrukning i liter: ")
+Distance = input("Ange din körsträcka i km: ")
+BF = float(Fuel)*100 / float(Distance)
+BF= round(BF,3)
+print("Bränsleförbrukningen för bilen är",BF,"l /100 km.")
